@@ -13,6 +13,9 @@ You could switch to the engine's TypeScript branch here.
 Maybe we should run `npm audit fix` first here to try avoid: npm WARN old lockfile
 
 ### Add Storybook
+
+Please use our [localsite/engine-storybook](https://github.com/localsite/engine-storybook) repo if you are adding storybook.  Avoid pushing storybook to the "modelearth/engine" repo so we can continue to sync with the parent repo.  
+
 Storybook will look into your project's dependencies during its install process and provide you with the best configuration available. ([More details](https://storybook.js.org/docs/react/get-started/install))  
 
 	npx sb init
