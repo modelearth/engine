@@ -11,14 +11,12 @@
 <script type="text/javascript" src="https://neighborhood.org/localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
 <script type="text/javascript" src="https://neighborhood.org/localsite/js/jquery.min.js" id="/localsite/js/jquery.min.js"></script>
 <script type="text/javascript" src="https://neighborhood.org/localsite/js/showdown.min.js" id="/localsite/js/showdown.min.js"></script>
-<!--
 <script type="text/javascript" src="https://neighborhood.org/localsite/js/navigation.js" id="/localsite/js/navigation.js"></script>
--->
 <script type="text/javascript" src="https://neighborhood.org/localsite/js/localsite.js"></script>
 
 <script>
 if(typeof param=='undefined'){ var param={}; }
-param.headerLogo = "<a href='https://blitzjs.com'><img src='img/logo/blitz.png' style='width:90px;padding-top:4px'></a>";
+//param.headerLogo = "<a href='https://blitzjs.com'><img src='img/logo/blitz.png' style='width:90px;padding-top:4px'></a>";
 
 document.addEventListener('hashChangeEvent', function (elem) {
     loadPageMarkdown();                    
@@ -57,6 +55,9 @@ function loadPageMarkdown() {
     display: none;
   }
   .markdown-body p:nth-of-type(2) {
+    display: none;
+  }
+  .markdown-body p:nth-of-type(3) {
     display: none;
   }
 </style>
