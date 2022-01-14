@@ -8,6 +8,18 @@ TO DO: Display the [Household CoolClimate json](public/static/json/household-coo
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/modelearth/engine)
 
 
+You could switch to the engine's TypeScript branch here.  
+
+Maybe we should run `npm audit fix` first here to try avoid: npm WARN old lockfile
+
+### Add Storybook
+Storybook will look into your project's dependencies during its install process and provide you with the best configuration available. ([More details](https://storybook.js.org/docs/react/get-started/install))  
+
+	npx sb init
+
+<!--
+Not these:
+
 Run these locally to add Storybook, and choose "yes" for the eslint plugin.
 
 	npx -y sb init --builder webpack5
@@ -19,7 +31,7 @@ TO DO: Figure out how to run one script similar to the curl script at the end of
 But the yarn test did not work.
 
 To test, run the yarn commands reside in the [Storybook tutorial](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/). 
-
+-->
 
 <!--
 Manually coping ".storybook" folder after generating in "taskbox" using tutorial steps allowed yarn to complete, but yarn test command still did not work.
