@@ -17,6 +17,20 @@ Storybook will look into your project's dependencies during its install process 
 
 	npx sb init
 
+Run the NextJS install: 
+
+	npm install
+
+Run the server:
+
+	npm start
+
+Open [http://localhost:3000](http://localhost:3000)
+
+Launch storybook at:
+
+	npm run storybook
+
 <!--
 Not these:
 
