@@ -27,7 +27,7 @@ Run the server:
 
 Open [http://localhost:3000](http://localhost:3000)
 
-Launch storybook at:
+In another terminal window, launch storybook at: [http://localhost:6006](http://localhost:6006)
 
 	npm run storybook
 
