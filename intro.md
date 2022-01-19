@@ -20,7 +20,7 @@ Storybook will look into your project's dependencies during its install process 
 
 	npx sb init
 
-Run the NextJS install: 
+Run the NextJS install (creates node_modules folder): 
 
 	npm install
 
