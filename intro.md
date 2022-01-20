@@ -34,6 +34,18 @@ In another terminal window, launch storybook at: [http://localhost:6006](http://
 
 	npm run storybook
 
+
+To add an existing control to Storybook:
+
+1. Update the .storybook/main.js file to include the "components" folder:
+
+stories: ['../stories/**/*.stories.mdx', '../stories/**/*.stories.@(js|jsx|ts|tsx)', '../components/**/*.stories.mdx', '../components/**/*.stories.@(js|jsx|ts|tsx)'],
+
+2. Add "export" before the const declaration in PageFilter.js  
+export const PageFilter = () => {
+
+3. Add an adjacent .stores.*  file for each component.
+
 <!--
 Not these:
 
